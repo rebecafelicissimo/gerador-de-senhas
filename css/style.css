@@ -10,7 +10,12 @@
     --primary-background: #07020D;
     --second-background: #e4272780;
     --third-background: #1b8b1b80;
+    --fourth-background: #F1E3F3;
+    --fifth-background: #2E86AB;
+    
     --primary-color: #F1E3F3;
+    --second-color: #1b8b1b;
+    --third-color: #e4272780;
 }
 
 body {
@@ -61,7 +66,7 @@ body {
     appearance: none;
     width: 80%;
     border-radius: 10px;
-    background-color: #F1E3F3;
+    background-color: var(--fourth-background);
     height: 13px;
     margin-bottom: 1.5rem;
 }
@@ -71,8 +76,8 @@ body {
     width: 80%;
     padding: 1rem;
     border-radius: 5px;
-    background-color: #2E86AB;
-    color: #F1E3F3;
+    background-color: var(--fifth-background);
+    color: var(--primary-color);
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
@@ -98,7 +103,7 @@ body {
     text-align: center;
     width: 80%;
     padding: 1rem;
-    background-color: rgba(27, 139, 27, 0.5);
+    background-color: var(--third-background);
     margin: 1rem 0;
     transition: transform 0.3s;
     cursor: pointer;
@@ -110,7 +115,7 @@ body {
 }
 
 .tooltip {
-    color: #fff;
+    color: var(--primary-color);
     background-color: var(--second-background);
     border-radius: 5px;
     padding: 6px 8px;
@@ -140,8 +145,9 @@ body {
 }
 
 article p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-weight: bold;
+    line-height: 2rem;
 }
 
 .article-list {
@@ -161,20 +167,22 @@ article p {
 }
 
 .article-footer {
-    font-size: 0.8rem
+    font-size: 0.8rem;
+    line-height: 2rem;
+    margin-top: 2rem;
 }
 
 .footer {
     text-align: center;
-    margin: 4rem 0;
+    margin-bottom: 2rem;
 }
 
 footer {
-    color: #F1E3F3;
+    color: var(--primary-color);
 }
 
 footer h4 span {
-    color: red;
+    color: var(--third-color);
 }
 
 footer div {
@@ -189,4 +197,22 @@ footer a {
     text-decoration: none;
     color: var(--primary-color);
     margin-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+/* Política de Privacidade e Cookies */
+.policy-title {
+    color: var(--second-color);
+    text-align: center;
+}
+
+.conteudo {
+    color: var(--primary-color);
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.policy-link {
+    color: var(--second-color);
+    font-weight: bold;
 }
