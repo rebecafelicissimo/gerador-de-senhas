@@ -1,0 +1,26 @@
+
+@media screen and (min-width: 768px) {
+    footer div.footer-link {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }    
+}
+
+@media screen and (min-width: 1000px) {
+    div.container {
+        width: 60%;        
+    }
+
+    header.article-header {
+        font-size: 1.2rem;
+    }
+
+    input.slider, button.button-cta, p.password {
+        width: 60%;
+    }
+
+    footer.article-footer {
+        font-size: 1rem;
+    }
+    
+}

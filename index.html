@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Rebeca Felicissimo">
+        <meta name="description" content="">
+        <title>Gerador de Senhas</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- inserir um ícone -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+
+        <!-- colocar a tag do google analytics -->
+
+    </head>
+    <body>
+
+        <div class="container">
+            <!-- <aside>anúncio google adsense</aside> -->
+
+            <header class="header-logo">
+                <img class="logo" src="assets/images/logo-gerador-de-senha.png" alt="Gerador de senhas logo.">
+            </header>
+
+            <main>
+                <section id="sectionOne"class="section"> <!-- seção gerar a senha -->
+                    <div id="container-input" class="container-input">
+
+                        <h3 class="subtitle">Tamanho <span id="valor" class="valor"></span> caracteres</h3>
+                        <input id="slider" class="slider" type="range" min="6" max="16" value="8">
+            
+                        <button id="button" class="button-cta" onclick=" generatePassword()">Gerar senha</button> <!-- cta = call to action (quando a pessoa clica está chamando uma ação) -->
+                    </div>
+                </section>
+            </main>
+
+            <section class="section"> <!-- seçao senha gerada e copiar a senha -->
+                <div id="container-password" class="container-password hide" onclick="copyPassword()">
+                    <h2 class="title">Sua senha gerada foi: </h2>
+                    <p id="password" class="password"></p>
+                    <p class="tooltip">Clique na senha para copiar. 😉</p>
+                </div>
+            </section>
+
+            <!-- <aside>anúncio google adsense</aside> -->
+
+            <section class="section"> <!-- colocar algum conteúdo sobre senhas -->
+                <article class="container-article">
+                    <header class="article-header">
+                        <h2>Está precisando criar uma senha forte e está sem criatividade?</h2>
+                    </header>
+
+                    <main>
+                        <p>
+                             Deixa que eu te ajudo. Nosso gerador de senha irá criar senhas contendo:
+                        </p>
+                        <ul class="article-list">
+                            <li class="article-list-item uppercase">letras maiúsculas;</li>
+                            <li class="article-list-item">letras minúsculas;</li>
+                            <li class="article-list-item">0123456789 e</li>
+                            <li class="article-list-item especial">caracteres especias (!@#$%¨&*_)</li>
+                        </ul>
+                    </main>
+
+                    <footer class="article-footer">
+                        <p>
+                            Uma senha forte aumenta a segurança e dificulta a ação de pessoas má intencionadas. 
+                        </p>
+                    </footer>
+                </article>
+            </section>
+
+            <!-- <aside>anúncio google adsense</aside> -->
+            <footer class="footer">
+                <h4>Feito com carinho! <span class="heart">❤</span></h4>
+                <div class="footer-link">
+                    <a href="privaty-policy.html">Política de Privacidade</a>
+                    <a href="cookies-policy.html">Política de Cookies</a>
+                </div>
+            </footer>
+        </div>
+
+        <!-- <aside>anúncio google adsense</aside> -->
+
+        <script src="script.js"></script>        
+    </body>
+</html>
