@@ -201,6 +201,19 @@ footer a {
 }
 
 /* Política de Privacidade e Cookies */
+
+.negrito {
+    font-weight: bold;
+}
+
+.co-green {
+    color: var(--second-color);
+}
+
+.co-red {
+    color: var(--third-color);
+}
+
 .policy-title {
     color: var(--second-color);
     text-align: center;
