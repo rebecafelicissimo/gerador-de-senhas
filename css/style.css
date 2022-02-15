@@ -16,6 +16,7 @@
     --primary-color: #F1E3F3;
     --second-color: #1b8b1b;
     --third-color: #e4272780;
+    --fourth-color: #2E86AB;
 }
 
 body {
@@ -28,11 +29,30 @@ body {
     font-size: 1rem; 
 }
 
+/* classes reutilizáveis */
+
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
+.co-white {
+    color: var(--primary-color);
+}
+
+.co-green {
+    color: var(--second-color);
+}
+
+.co-red {
+    color: var(--third-color);
+}
+
+.co-blue {
+    color: var(--fourth-color);
+}
+
+/* /classes reutilizáveis */
 
 .header-logo {
     margin-top: 5rem;
@@ -55,7 +75,6 @@ body {
 
 .subtitle {
     margin-bottom: 1.5rem;
-    color: var(--primary-color);
 }
 
 .valor {
@@ -96,7 +115,6 @@ body {
 
 .title {
     font-size: 1rem;
-    color: var(--primary-color);
 }
 
 .password {
@@ -136,7 +154,6 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--primary-color);
 }
 
 .article-header {
@@ -202,16 +219,9 @@ footer a {
 
 /* Política de Privacidade e Cookies */
 
-.negrito {
-    font-weight: bold;
-}
-
-.co-green {
-    color: var(--second-color);
-}
-
-.co-red {
-    color: var(--third-color);
+.center {
+    text-align: center;
+    line-height: 2rem;
 }
 
 .policy-title {
@@ -220,12 +230,21 @@ footer a {
 }
 
 .conteudo {
-    color: var(--primary-color);
     line-height: 3rem;
     text-align: justify;
+}
+
+.conteudo02 {
+    text-align: center;
 }
 
 .policy-link {
     color: var(--second-color);
     font-weight: bold;
 }
+
+.sites {
+    text-decoration: none;
+    font-weight: bold;
+}
+
