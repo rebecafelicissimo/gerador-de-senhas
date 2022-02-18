@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: https://geradordesenhas.aplicacoesweb.com.br/privaty-policy.html
+Disallow: https://geradordesenhas.aplicacoesweb.com.br/cookies-policy.html
