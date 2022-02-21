@@ -1,5 +1,9 @@
 
 @media screen and (min-width: 768px) {
+    img.logo-apweb {
+        width: 30%;
+    }
+
     footer div.footer-link {
         flex-direction: row;
         justify-content: space-evenly;
@@ -21,6 +25,5 @@
 
     footer.article-footer {
         font-size: 1rem;
-    }
-    
+    }    
 }

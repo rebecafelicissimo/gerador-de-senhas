@@ -55,15 +55,20 @@ body {
 /* /classes reutilizáveis */
 
 .header-logo {
-    margin-top: 5rem;
+    padding: 1rem 0;
 }
 
-.logo {
-    width: 100%;
+.logo-apweb {
+    width: 50%;
 }
 
 .section {
     margin: 2rem 0;
+}
+
+.logo-gerador {
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 .container-input {
