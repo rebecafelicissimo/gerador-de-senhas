@@ -4,6 +4,12 @@
         width: 30%;
     }
 
+    h1.title {
+        text-align: left;
+        font-size: 1.5rem;
+        line-height: none;
+    }
+
     footer div.footer-link {
         flex-direction: row;
         justify-content: space-evenly;
